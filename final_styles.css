@@ -1,0 +1,62 @@
+body {
+    font-family: "Nunito", sans-serif;
+    text-align: center;
+    color: rgb(99, 140, 229);
+}
+
+.toggle-container {
+    display: inline-flex;
+    gap: 20px;
+}
+
+.silly-mode-toggle {
+    border-radius: 25px;
+    border: 3px solid rgb(99, 140, 229);
+    width: 60px;
+    height: 20px;
+    padding: 5px;
+    margin-top: 5%;
+}
+
+p {
+    font-size: 40px;
+    margin: 0;
+}
+
+.silly-mode-toggle div {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: rgb(99, 140, 229);
+    transition: all 0.3s;
+}
+
+.box1, .box2, .box3 {
+    margin-top: 4%;
+    display: inline-flex;
+    width: 250px;
+    height: 400px;
+    background-color: rgb(221, 221, 221);
+    border-radius: 30px;
+    color: rgb(255, 255, 255);
+    transition: all linear 0.2s;
+    padding: 2%;
+    font-size: 40px;
+}
+
+.selected {
+    background-color: rgb(99, 140, 229);
+    transform: scale(1.1);
+    transition: all linear 0.5s;
+}
+
+.facts {
+    display: flex;
+    justify-content: center;
+    gap: 2%;
+}
+
+.silly-mode-toggle.shift div {
+    margin-left: 40px;
+    transition: all 0.3s;
+}
